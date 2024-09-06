@@ -1,0 +1,8 @@
+fastapi
+diffusers
+torch
+torchvision
+torchaudio
+python-dotenv
+uvicorn
+accelerate
