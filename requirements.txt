@@ -6,3 +6,5 @@ torchaudio
 python-dotenv
 uvicorn
 accelerate
+transformers
+numpy==1.23.5

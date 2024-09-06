@@ -8,6 +8,9 @@ from diffusers import StableDiffusionPipeline
 from io import BytesIO
 import base64 
 from diffusers.models import AutoencoderKL
+import sys
+
+print(f"Python interpreter: {sys.executable}")
 
 load_dotenv()
 auth_token = os.getenv("AUTH_TOKEN")
