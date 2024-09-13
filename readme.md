@@ -9,6 +9,7 @@ This application leverages the model trained by Stability AI and Runway ML to ge
 Run the setup script:
 
 - For Unix-based systems: `./setup.sh`
+- Add a `.env` file with a hugging face auth token as shown in the `.example.env` file.
 
 ## Running the Application
 
@@ -26,7 +27,3 @@ Send a POST request to `http://localhost:8000/?prompt=[ENTER PROMPT HERE]` with 
 ### Output
 
 The generated image will be saved as `testimage.png` in the src directory. 
-
-## Note
-
-Make sure to replace `your_auth_token_here` in the `.env` file with your actual authentication token.
