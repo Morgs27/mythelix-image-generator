@@ -30,7 +30,6 @@ print(f"CUDA version: {torch.version.cuda}")
 
 device = "cuda"
 model_id = "prompthero/openjourney-v4"
-# vae = AutoencoderKL.from_pretrained("stabilityai/sd-vae-ft-mse")
 pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16, use_auth_token=auth_token)
 pipe.to(device)
 
